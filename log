@@ -1,0 +1,359 @@
+commit 3d74ac9ca058926a442a57d8325bee4fc11adfd6
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 9 13:00:33 2019 +0000
+
+    lessen_replicas
+
+commit cfa11eba7ad1737f7389d848eae38906f1396980
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 9 12:36:33 2019 +0000
+
+    morecerts
+
+commit 8cdec94341b7549c97640a1a4de1fd45f99bd0be
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 9 11:23:34 2019 +0000
+
+    certs
+
+commit 965b9ea064e48e718d124196c0a6ff5fb5519ef6
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 9 11:21:51 2019 +0000
+
+    again
+
+commit 65e73f3c1ea9c78d198945059df8f0fae4c0a233
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 9 11:20:32 2019 +0000
+
+    certs
+
+commit 8ae67f93d0bae4c5dec6bd8921fa669ce271cbac
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 19:54:37 2019 +0000
+
+    removing_type
+
+commit 5d0cc0b35320e8495607a8bf1350e743e7834c48
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 19:53:39 2019 +0000
+
+    removing_cert
+
+commit aa86b466d686b84d1d0895beadbbbd668d80d670
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 19:07:32 2019 +0000
+
+    deleted redundant files
+
+commit 4d71f5bb126f9a684b0ec5b1868b71ea97a4479b
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 19:06:50 2019 +0000
+
+    new_certs
+
+commit 5a3bbf4885e079c2a71f77248671edad53eef335
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 18:58:15 2019 +0000
+
+    adding_tempest
+
+commit 8e99eff2c0f12b1227ddb3b9a1af22e020ee8fde
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 18:45:07 2019 +0000
+
+    deleted redundant files
+
+commit 9cc92edf0083f82205906a4124d4b9e230c74125
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 18:20:41 2019 +0000
+
+    back
+
+commit 273c8d282af5cd80545f812dbd17c6e0d16c99a5
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 18:18:28 2019 +0000
+
+    back-to-march
+
+commit 350d27bd56e24237b58c9f1afa85d9fb956089b0
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 18:16:51 2019 +0000
+
+    no_certs
+
+commit 04706607898642b5f2f85d65b6929201658e25fc
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 17:15:15 2019 +0000
+
+    new-certs
+
+commit e82a3abecf8069330e614e51b33c310746e9d0a2
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 17:09:14 2019 +0000
+
+    no_certs
+
+commit e358805d86052978ee4a54525c8d5e1bf9e82327
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 17:07:43 2019 +0000
+
+    no_scaled
+
+commit 2eca1f9ea409150460c5a869cadaf5f41a2620dd
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 16:49:51 2019 +0000
+
+    new_certs
+
+commit c4ccbaa3c22c77c243a33a447a7ab2c1fe77c2c2
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 16:36:29 2019 +0000
+
+    deleted redundant files
+
+commit 4c84dd823dc96847a5d84a7ad3e2dc97614fb414
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 15:14:43 2019 +0000
+
+    new_certs
+
+commit 366590bf66e700a0f8c40e701dbd840e6f4ba687
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 15:14:11 2019 +0000
+
+    fixed_endpoints
+
+commit 4138eebf650cc25932db6a799c04f444ad7ca201
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 14:56:11 2019 +0000
+
+    no_maas_vip
+
+commit 86c267f31a953f7a9d48d4c9bdf44e322472a0ff
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 14:53:16 2019 +0000
+
+    reversing_maas
+
+commit 2c76854e26cd7172a05da7e1ec3844bc2f5b34d9
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 14:51:11 2019 +0000
+
+    endpoints_reversal
+
+commit aa02639b68fe053944ac77da14dc0706a4b465cf
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 14:27:32 2019 +0000
+
+    type_changes
+
+commit 8afd58642e652ebf4f94f58d65a183cfa8b1042b
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 8 12:58:16 2019 +0000
+
+    commented out maas.Domain
+
+commit 5c456c326d2e38210da5e3cda25f2d2b5c0f26a2
+Author: cb371j <cb371j@att.com>
+Date:   Tue May 7 22:46:52 2019 +0000
+
+    new_certs
+
+commit a477e42ab5807d9f537ae8f050e1fe87e1fffada
+Author: cb371j <cb371j@att.com>
+Date:   Tue May 7 20:43:31 2019 +0000
+
+    changed_maas.yaml
+
+commit 95b137043c94b7a83d97b3f8762b101ab78d68cf
+Author: cb371j <cb371j@att.com>
+Date:   Tue May 7 20:07:38 2019 +0000
+
+    deleted redundant files
+
+commit 7709a4136eb6141022768b08757b2e2c2092e672
+Author: cb371j <cb371j@att.com>
+Date:   Tue May 7 20:05:24 2019 +0000
+
+    common-addresses
+
+commit 4f90f888ede5cdeaa8f24f74c98e82a2a2bd229d
+Author: cb371j <cb371j@att.com>
+Date:   Tue May 7 15:03:35 2019 +0000
+
+    certificates
+
+commit 426892cc4dbdaa93c899c16436baa429d79166db
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 16:47:10 2019 +0000
+
+    rearranged_vips
+
+commit bab2642895b070f905ab685ab22c3c54c7124748
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 16:19:36 2019 +0000
+
+    deleted redundant files
+
+commit e1d78971eadca385c9f1412ff4345056b9a73831
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 15:34:56 2019 +0000
+
+    deleted redundant files
+
+commit 224b4b823b30204662f89ae24b055d2a51302a0e
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 15:27:52 2019 +0000
+
+    deleted redundant files
+
+commit 76fb68614f3f018a11c8060218ae63501e963830
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 15:07:39 2019 +0000
+
+    adding_tempest
+
+commit 10ec1e7904f715ed13f30d2642a06a9a34558637
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 15:06:52 2019 +0000
+
+    adding tempest
+
+commit 3e239d7dadacfec953183e2b60ebbbd7505e11d6
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 15:05:45 2019 +0000
+
+    adding foundry charts
+
+commit e91cfb3c0531450961093d6a2f3252b46edfd84b
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 14:40:44 2019 +0000
+
+    adding tempest
+
+commit 7bd9b298d6dac46098c65d7a9b4dee1fc27cf019
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 13:59:18 2019 +0000
+
+    tempest added
+
+commit 701c52f6c5af8a125c8ca13714b1d0924beb8c38
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 13:23:16 2019 +0000
+
+    deleted redundant files
+
+commit 0a38ee75aab428f218160e21d0ce4a74d58a2831
+Author: cb371j <cb371j@att.com>
+Date:   Fri May 3 13:16:34 2019 +0000
+
+    changed maas vip
+
+commit dc328491264727789c38c143a55cb5c203e1c9b3
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 2 23:55:23 2019 +0000
+
+    deleted redundant files
+
+commit 89458dec88a690adfc1fcc351e39c6feb1470912
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 2 23:46:07 2019 +0000
+
+    deleted redundant files
+
+commit 5d970b0c34aeae0d33787442e8a57acc75df2a7f
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 2 23:43:19 2019 +0000
+
+    commented out maas_control plane
+
+commit b25fd8284d32796f6f7f8e00178db63119436e02
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 2 23:25:36 2019 +0000
+
+    added_cert
+
+commit 9824b394032e4620555ba593957d76a336e3dbf0
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 2 23:17:59 2019 +0000
+
+    deleted redundant files
+
+commit 376211da2aaa48691ca46cd9bb6bb728dbcde0cd
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 2 22:50:24 2019 +0000
+
+    added_maas_vip
+
+commit d27d5f04457d42bece979eadaad4ae1226e57ecd
+Author: cb371j <cb371j@att.com>
+Date:   Thu May 2 22:49:39 2019 +0000
+
+    added_maas_vip
+
+commit 7ed8c0d9b2e5d1640b3888e4560d00164e0dbac0
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 1 18:17:09 2019 +0000
+
+    adding certificates
+
+commit 3fbd68653170fb7af160e8957b3f5cf6c9aaa799
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 1 17:57:59 2019 +0000
+
+    deleted redundant files
+
+commit 39dc07ae422bc04fccc69f96fde45508b6b290d1
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 1 16:50:39 2019 +0000
+
+    commented_out_file
+
+commit d76fbd576ee7552d7259c0dbe0f8de87452fc14e
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 1 16:49:14 2019 +0000
+
+    update_maas
+
+commit e1fde71cc75052fdaca89357234b9abe9e13d70b
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 1 16:32:57 2019 +0000
+
+    changed_type
+
+commit 14134327b081154da2717c1c93aa6b95d4fc396c
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 1 16:32:09 2019 +0000
+
+    removing certs
+
+commit d3daaec3e4cde5f55b0fd8f1017f4481297d2f3e
+Author: cb371j <cb371j@att.com>
+Date:   Wed May 1 16:30:52 2019 +0000
+
+    akraino type
+
+commit 11aea4af51b05e480d9b20323579d9f0c55352a3
+Author: cb371j <cb371j@att.com>
+Date:   Tue Apr 30 21:08:36 2019 +0000
+
+    adding_certs
+
+commit dc261f3cc685cfcb963879dee051e194bcf14d02
+Author: cb371j <cb371j@att.com>
+Date:   Tue Apr 30 20:30:25 2019 +0000
+
+    reversed maas changes
+
+commit c60506f1c08dd1992f0d1e211fea21880d7b1108
+Author: cb371j <cb371j@att.com>
+Date:   Tue Apr 30 20:30:03 2019 +0000
+
+    reversed maas changes
+
+commit e6942bc7a9bbc182d76a37c2f933f9edbe512341
+Author: cb371j <cb371j@att.com>
+Date:   Tue Apr 30 19:57:19 2019 +0000
+
+    first commit
