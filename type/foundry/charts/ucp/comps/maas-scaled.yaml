@@ -23,6 +23,6 @@ data:
   values:
     pod:
       replicas:
-        region: 2
-        rack: 2
+        region: 1
+        rack: 1
 ...
