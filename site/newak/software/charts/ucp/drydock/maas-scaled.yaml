@@ -11,8 +11,15 @@ metadata:
     actions:
       - method: merge
         path: .
-  storagePolicy: cleartext
 #  replacement: true
+  storagePolicy: cleartext
+  substitutions:
+    - src:
+        schema: pegleg/CommonAddresses/v1
+        name: common-addresses
+        path: .vip.maas_vip
+      dest:
+        path: .values.network.maas_ingress.addr
 data:
   values:
     network:
