@@ -12,7 +12,7 @@ metadata:
       - method: merge
         path: .
   storagePolicy: cleartext
-  replacement: true
+#  replacement: true
 data:
   values:
     network:
