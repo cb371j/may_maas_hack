@@ -1,0 +1,21 @@
+---
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: ucp-maas-scaled
+  layeringDefinition:
+    abstract: false
+    layer: site
+    parentSelector:
+      name: ucp-maas-scaled-type
+    actions:
+      - method: merge
+        path: .
+  storagePolicy: cleartext
+  replacement: true
+data:
+  values:
+    network:
+      maas_ingress:
+        addr: '172.30.14.115/32'
+...

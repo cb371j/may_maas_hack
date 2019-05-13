@@ -53,4 +53,7 @@ data:
         proxy:
           proxy_enabled: 'false'
           peer_proxy_enabled: false
+    network:
+      maas_ingress:
+        addr: '172.30.14.115/32'
 ...
