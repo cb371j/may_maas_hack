@@ -39,7 +39,7 @@ data:
         # This dummy IP is only used to bypass the
         # pre-genesis.sh check. Also drydock-nc should be
         # an alias of ingress-uc and not ingress-nc.
-        maas_vip: 172.30.14.115/32
+        maas_vip: 172.28.14.115/32
         peers:
           - 172.29.14.2
           - 172.29.14.3
