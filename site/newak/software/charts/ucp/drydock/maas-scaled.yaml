@@ -13,6 +13,8 @@ metadata:
         path: .
 #  replacement: true
   storagePolicy: cleartext
+#testing sub below
+  substitutions:
     - src:
         schema: pegleg/CommonAddresses/v1
         name: common-addresses
