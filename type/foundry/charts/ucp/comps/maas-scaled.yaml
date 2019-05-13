@@ -19,10 +19,10 @@ metadata:
         path: .vip.maas_vip
       dest:
         path: .values.network.maas_ingress.addr
-data:
-  values:
-    pod:
-      replicas:
-        region: 1
-        rack: 1
+#data:
+#  values:
+#    pod:
+#      replicas:
+#        region: 1
+#        rack: 1
 ...
