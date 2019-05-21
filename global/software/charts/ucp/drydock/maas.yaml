@@ -67,7 +67,7 @@ metadata:
         name: common-addresses
         path: .node_ports.maas_proxy
       dest:
-        path: .values.network.port.service_proxy
+       path: .values.network.port.service_proxy
 
     # MaaS Config
     - src:
@@ -185,6 +185,10 @@ data:
       region:
         node_selector_key: maas-region
         node_selector_value: enabled
+    network:
+      proxy:
+        node_port:
+          enabled: true
     jobs:
       import_boot_resources:
         timeout: 1800
@@ -200,6 +204,14 @@ data:
         credentials:
           secret:
             namespace: ucp
+      drydock:
+        bootaction_url: http://DRYDOCK_IP:DRYDOCK_PORT/api/v1.0/bootactions/nodes/
+      maas:
+        credentials:
+          secret:
+            namespace: ucp
+        url:
+          maas_url: http://MAAS_IP:MAAS_PORT/MAAS
         proxy:
           # Use MAAS Built-in proxy. This supports environments where
           # the PXE interface can not reach the internet.
