@@ -30,15 +30,6 @@ metadata:
       - method: merge
         path: .
   storagePolicy: cleartext
-#testing sub below
-  substitutions:
-    - src:
-        schema: pegleg/CommonAddresses/v1
-        name: common-addresses
-        path: .calico.bgp.ipv4.maas_vip
-      dest:
-        path: .values.network.maas_ingress.addr
-#wasn't here before
 data:
   values:
     conf:
@@ -53,7 +44,4 @@ data:
         proxy:
           proxy_enabled: 'false'
           peer_proxy_enabled: false
-    network:
-      maas_ingress:
-        addr: '172.30.14.115/32'
 ...
