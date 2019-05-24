@@ -69,9 +69,9 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: iam.DOMAIN
+          host: iam-ak.DOMAIN
         admin:
-          host: iam.DOMAIN
+          host: iam-ak.DOMAIN
       path:
         default: /v3
       scheme:
@@ -208,7 +208,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: drydock.DOMAIN
+          host: drydock-uc.DOMAIN
     maas_region:
       name: maas-region
       hosts:
@@ -229,7 +229,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: maas.DOMAIN
+          host: maas-uc.DOMAIN
     maas_ingress:
       hosts:
         default: maas-ingress
@@ -280,7 +280,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: shipyard.DOMAIN
+          host: shipyard-ak.DOMAIN
     prometheus_openstack_exporter:
       namespace: ucp
       hosts:
@@ -304,7 +304,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: object-store.DOMAIN
+          host: object-store-ak.DOMAIN
       path:
         default: /swift/v1
       scheme:
@@ -323,7 +323,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: object-store.DOMAIN
+          host: object-store-ak.DOMAIN
       path:
         default: /auth/v1.0
       scheme:
@@ -491,7 +491,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: object-store.DOMAIN
+          host: object-store-ak.DOMAIN
       path:
         default: /swift/v1/KEY_$(tenant_id)s
       scheme:
@@ -510,7 +510,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: object-store.DOMAIN
+          host: object-store-ak.DOMAIN
       path:
         default: /auth/v1.0
       scheme:
@@ -590,9 +590,9 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: identity.DOMAIN
+          host: identity-ak.DOMAIN
         admin:
-          host: identity.DOMAIN
+          host: identity-ak.DOMAIN
       path:
         default: /v3
       scheme:
@@ -636,7 +636,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: image.DOMAIN
+          host: image-ak.DOMAIN
       path:
         default: null
       scheme:
@@ -695,7 +695,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: volume.DOMAIN
+          host: volume-ak.DOMAIN
       path:
         default: "/v1/%(tenant_id)s"
       scheme:
@@ -713,7 +713,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: volume.DOMAIN
+          host: volume-ak.DOMAIN
       path:
         default: "/v2/%(tenant_id)s"
       scheme:
@@ -731,7 +731,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: volume.DOMAIN
+          host: volume-ak.DOMAIN
       path:
         default: "/v3/%(tenant_id)s"
       scheme:
@@ -775,7 +775,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: orchestration.DOMAIN
+          host: orchestration-ak.DOMAIN
       path:
         default: "/v1/%(project_id)s"
       scheme:
@@ -793,7 +793,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: cloudformation.DOMAIN
+          host: cloudformation-ak.DOMAIN
       path:
         default: /v1
       scheme:
@@ -853,7 +853,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: network.DOMAIN
+          host: network-ak.DOMAIN
       path:
         default: null
       scheme:
@@ -897,7 +897,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: compute.DOMAIN
+          host: compute-ak.DOMAIN
       path:
         default: "/v2/%(tenant_id)s"
       scheme:
@@ -932,7 +932,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: nova-novncproxy.DOMAIN
+          host: nova-novncproxy-ak.DOMAIN
       path:
         default: /vnc_auto.html
       scheme:
@@ -963,7 +963,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: placement.DOMAIN
+          host: placement-ak.DOMAIN
       path:
         default: /
       scheme:
@@ -981,7 +981,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: dashboard.DOMAIN
+          host: dashboard-ak.DOMAIN
       path:
         default: null
       scheme:
@@ -1158,7 +1158,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: grafana.DOMAIN
+          host: grafana-ak.DOMAIN
       path:
         default: null
       scheme:
@@ -1194,7 +1194,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: kibana.DOMAIN
+          host: kibana-ak.DOMAIN
       path:
         default: null
       scheme:
@@ -1296,7 +1296,7 @@ data:
       host_fqdn_override:
         default: null
         public:
-          host: nagios.DOMAIN
+          host: nagios-ak.DOMAIN
       path:
         default: null
       scheme:
