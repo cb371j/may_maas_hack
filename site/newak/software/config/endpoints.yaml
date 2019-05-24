@@ -24,8 +24,8 @@ metadata:
           pattern: DOMAIN
         - path: .ucp.physicalprovisioner.host_fqdn_override.public.host
           pattern: DOMAIN
-#        - path: .ucp.maas_region.host_fqdn_override.public.host
-#          pattern: DOMAIN
+        - path: .ucp.maas_region.host_fqdn_override.public.host
+          pattern: DOMAIN
         - path: .ceph.object_store.host_fqdn_override.public.host
           pattern: DOMAIN
         - path: .ceph.ceph_object_store.host_fqdn_override.public.host
@@ -228,8 +228,8 @@ data:
           default: 8000
       host_fqdn_override:
         default: null
-    #    public:
-    #      host: maas.DOMAIN
+        public:
+          host: maas.DOMAIN
     maas_ingress:
       hosts:
         default: maas-ingress
