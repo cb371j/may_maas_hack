@@ -75,7 +75,6 @@ data:
       type: unit
       permissions: '444'
       data: |-
-     #Added ingress rule below
         [Unit]
         Description=IP Rules Initialization Service
         After=network-online.target local-fs.target configure-ingress-ip-rules.service
@@ -87,6 +86,22 @@ data:
         [Install]
         WantedBy=multi-user.target
 
+      data_pipeline:
+        - utf8_decode
+    - path: /etc/systemd/system/configure-maas-ip-rules.service
+      type: unit
+      permissions: '444'
+      data: |-
+        [Unit]
+        Description=IP Rules Initialization Service
+        After=network-online.target local-fs.target configure-ingress-ip-rules.service
+
+        [Service]
+        Type=simple
+        ExecStart=/opt/configure-ip-rules.sh -g DH_SUB_GATEWAY_IP -c DH_SUB_POD_CIDR -s DH_SUB_INGRESS_CIDR
+
+        [Install]
+        WantedBy=multi-user.target
       data_pipeline:
         - utf8_decode
     - path: /opt/configure-ip-rules.sh
